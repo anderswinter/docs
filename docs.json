@@ -25,6 +25,13 @@
         "href": "https://hub.xray.vitasim.dk/roadmap"
       },
       {
+        "anchor": "Changelog",
+        "icon": "arrow-down-arrow-up",
+        "pages": [
+          "changelog"
+        ]
+      },
+      {
         "anchor": "Support",
         "icon": "headset",
         "pages": [
