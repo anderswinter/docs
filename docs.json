@@ -8,60 +8,6 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "global": {
-          "anchors": [
-            {
-              "anchor": "Documentation",
-              "icon": "book-open",
-              "pages": [
-                "quickstart",
-                "development",
-                "navigation"
-              ]
-            },
-            {
-              "anchor": "API References",
-              "icon": "square-terminal",
-              "pages": [
-                "api-reference/get",
-                "api-reference/post",
-                "api-reference/delete"
-              ]
-            },
-            {
-              "anchor": "Blog",
-              "href": "https://external-link.com/blog"
-            }
-          ]
-        },
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      }
-    ]
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
