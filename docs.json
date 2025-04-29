@@ -6,8 +6,7 @@
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
+  },{
   "navigation": {
     "pages": [
       "overview",
@@ -15,29 +14,5 @@
       "advanced/components",
       "advanced/integrations"
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@vitasim.dk"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
-} 
+}
