@@ -25,7 +25,7 @@
       },
       {
         "anchor": "API References",
-        "icon": "sqaure-terminal",
+        "icon": "align-horizontal-distribute-end",
         "pages": [
           "quickstart"
         ]
