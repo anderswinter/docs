@@ -3,8 +3,14 @@
   "$schema": "https://mintlify.com/docs.json",
   
   "theme": "mint",
+
+  "logo": {
+    "light": "/logo.png",      
+    "dark": "/logo-dark.png",  
+    "href": "https://vitasim.dk/xray"
+  },
   
-  "name": "X-ray Simulator",
+  "name": "X-ray Simulator support",
   
   "colors": {
     "primary": "#ba8236",
@@ -50,9 +56,9 @@
         "icon": "book-open",
           "groups": [
             {
-              "group": "Getting Started",
+              "group": "Technical setup guides",
               "pages": [
-                "quickstart",
+                "mdm-deployment-instructions",
                 {
                   "group": "Editing",
                   "pages": ["installation", "editor"]
