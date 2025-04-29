@@ -36,6 +36,12 @@
       {
         "anchor": "Roadmap / Changelog",
         "href": "https://hub.xray.vitasim.dk/roadmap"
+      },
+      {
+        "anchor": "Support",
+        "icon": "headset",
+        "href": "mailto:support@vitasim.dk"
+        ]
       }
     ]
   }
