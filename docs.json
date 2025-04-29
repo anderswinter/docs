@@ -25,103 +25,80 @@
               "pages": [
                 "welcome"
                     ],
-                "anchors": [
-                    {
-                    "anchor": "Homepage ↗",
-                    "icon": "browser",
-                    "href": "https://vitasim.dk/xray"
-                    },
-                    {
-                    "anchor": "Roadmap ↗",
-                    "icon": "chart-gantt",
-                    "href": "https://hub.xray.vitasim.dk/roadmap"
-                    },
-                    {
-                    "anchor": "Changelog",
-                    "icon": "arrow-down-arrow-up",
-                    "pages": [
-                        "changelog"
+                "global": {
+                    "anchors": [
+                        {
+                        "anchor": "Homepage ↗",
+                        "icon": "browser",
+                        "href": "https://vitasim.dk/xray"
+                        },
+                        {
+                        "anchor": "Roadmap ↗",
+                        "icon": "chart-gantt",
+                        "href": "https://hub.xray.vitasim.dk/roadmap"
+                        },
+                        {
+                        "anchor": "Changelog",
+                        "icon": "arrow-down-arrow-up",
+                        "pages": [
+                            "changelog"
+                        ]
+                        },
+                        {
+                        "anchor": "Support",
+                        "icon": "headset",
+                        "pages": [
+                            "support"
+                        ]
+                        },
+                        {
+                        "anchor": "Download",
+                        "icon": "download",
+                        "pages": [
+                            "download"
+                        ]
+                        }
                     ]
-                    },
-                    {
-                    "anchor": "Support",
-                    "icon": "headset",
-                    "pages": [
-                        "support"
-                    ]
-                    },
-                    {
-                    "anchor": "Download",
-                    "icon": "download",
-                    "pages": [
-                        "download"
-                    ]
-                    }
-                ]
+                }
             },
             {
             "tab": "test",
-                "anchors": [
-                    {
-                    "anchor": "Homepage ↗",
-                    "icon": "browser",
-                    "href": "https://vitasim.dk/xray"
-                    },
-                    {
-                    "anchor": "Roadmap ↗",
-                    "icon": "chart-gantt",
-                    "href": "https://hub.xray.vitasim.dk/roadmap"
-                    },
-                    {
-                    "anchor": "Changelog",
-                    "icon": "arrow-down-arrow-up",
-                    "pages": [
-                        "changelog"
-                    ]
-                    },
-                    {
-                    "anchor": "Support",
-                    "icon": "headset",
-                    "pages": [
-                        "support"
-                    ]
-                    },
-                    {
-                    "anchor": "Download",
-                    "icon": "download",
-                    "pages": [
-                        "download"
-                    ]
-                    },
-                    {
-                    "anchor": "Technical Documentation",
-                    "icon": "book-open",
-                        "groups": [
+                "global": {
+                    "anchors": [
                         {
-                            "group": "Technical setup guides",
-                            "pages": [
-                            "mdm-deployment-instructions",
-                            {
-                                "group": "Editing",
-                                "pages": ["installation", "editor"]
-                            }
-                            ]
+                        "anchor": "Homepage ↗",
+                        "icon": "browser",
+                        "href": "https://vitasim.dk/xray"
                         },
                         {
-                            "group": "Writing Content",
-                            "pages": ["writing-content/page", "writing-content/text"]
-                        }
+                        "anchor": "Roadmap ↗",
+                        "icon": "chart-gantt",
+                        "href": "https://hub.xray.vitasim.dk/roadmap"
+                        },
+                        {
+                        "anchor": "Changelog",
+                        "icon": "arrow-down-arrow-up",
+                        "pages": [
+                            "changelog"
                         ]
-                    },
-                    {
-                    "anchor": "Guides",
-                    "icon": "books",
-                    "pages": [
-                        "quickstart"
+                        },
+                        {
+                        "anchor": "Support",
+                        "icon": "headset",
+                        "pages": [
+                            "support"
+                        ]
+                        },
+                        {
+                        "anchor": "Download",
+                        "icon": "download",
+                        "pages": [
+                            "download"
+                        ]
+                        }
                     ]
-                    }
-                ]
                 }
+            }
             ] 
         },
   
