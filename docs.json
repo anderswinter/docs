@@ -22,15 +22,12 @@
         "tabs": [
             {
               "tab": "Welcome",
-                "pages": [ 
-                    "welcome"
-                ],
               "anchors": [
                         {
-                        "anchor": "test ↗",
-                        "icon": "browser",
+                        "anchor": "Welcome",
+                        "icon": "house",
                         "pages": [ 
-                        "changelog"
+                        "welcome"
                           ]
                         }
               ],
