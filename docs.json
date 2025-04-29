@@ -8,7 +8,14 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "navigation": {}, 
+  "navigation": {
+    "pages": [
+      "overview",
+      "quickstart",
+      "advanced/components",
+      "advanced/integrations"
+    ]
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
