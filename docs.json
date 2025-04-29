@@ -23,9 +23,7 @@
         "anchor": "Technical Documentation",
         "icon": "book-open",
         "pages": [
-          "quickstart",
-          "development",
-          "navigation"
+          "development"
         ]
       },
       {
