@@ -35,6 +35,7 @@
       },
       {
         "anchor": "Roadmap / Changelog",
+        "icon": "chart-gantt",
         "href": "https://hub.xray.vitasim.dk/roadmap"
       },
       {
@@ -43,6 +44,7 @@
         "href": "mailto:support@vitasim.dk"
       }
     ]
-  }
+  } 
+
   
 }
