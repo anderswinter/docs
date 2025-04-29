@@ -24,73 +24,106 @@
               "tab": "Welcome",
               "pages": [
                 "welcome"
-                    ]
-                },
-                {
-        "tab": "test",
-            "anchors": [
-                {
-                "anchor": "Homepage ↗",
-                "icon": "browser",
-                "href": "https://vitasim.dk/xray"
-                },
-                {
-                "anchor": "Roadmap ↗",
-                "icon": "chart-gantt",
-                "href": "https://hub.xray.vitasim.dk/roadmap"
-                },
-                {
-                "anchor": "Changelog",
-                "icon": "arrow-down-arrow-up",
-                "pages": [
-                    "changelog"
-                ]
-                },
-                {
-                "anchor": "Support",
-                "icon": "headset",
-                "pages": [
-                    "support"
-                ]
-                },
-                {
-                "anchor": "Download",
-                "icon": "download",
-                "pages": [
-                    "download"
-                ]
-                },
-                {
-                "anchor": "Technical Documentation",
-                "icon": "book-open",
-                    "groups": [
+                    ],
+                "anchors": [
                     {
-                        "group": "Technical setup guides",
-                        "pages": [
-                        "mdm-deployment-instructions",
+                    "anchor": "Homepage ↗",
+                    "icon": "browser",
+                    "href": "https://vitasim.dk/xray"
+                    },
+                    {
+                    "anchor": "Roadmap ↗",
+                    "icon": "chart-gantt",
+                    "href": "https://hub.xray.vitasim.dk/roadmap"
+                    },
+                    {
+                    "anchor": "Changelog",
+                    "icon": "arrow-down-arrow-up",
+                    "pages": [
+                        "changelog"
+                    ]
+                    },
+                    {
+                    "anchor": "Support",
+                    "icon": "headset",
+                    "pages": [
+                        "support"
+                    ]
+                    },
+                    {
+                    "anchor": "Download",
+                    "icon": "download",
+                    "pages": [
+                        "download"
+                    ]
+                    }
+                ]
+            },
+            {
+            "tab": "test",
+                "anchors": [
+                    {
+                    "anchor": "Homepage ↗",
+                    "icon": "browser",
+                    "href": "https://vitasim.dk/xray"
+                    },
+                    {
+                    "anchor": "Roadmap ↗",
+                    "icon": "chart-gantt",
+                    "href": "https://hub.xray.vitasim.dk/roadmap"
+                    },
+                    {
+                    "anchor": "Changelog",
+                    "icon": "arrow-down-arrow-up",
+                    "pages": [
+                        "changelog"
+                    ]
+                    },
+                    {
+                    "anchor": "Support",
+                    "icon": "headset",
+                    "pages": [
+                        "support"
+                    ]
+                    },
+                    {
+                    "anchor": "Download",
+                    "icon": "download",
+                    "pages": [
+                        "download"
+                    ]
+                    },
+                    {
+                    "anchor": "Technical Documentation",
+                    "icon": "book-open",
+                        "groups": [
                         {
-                            "group": "Editing",
-                            "pages": ["installation", "editor"]
+                            "group": "Technical setup guides",
+                            "pages": [
+                            "mdm-deployment-instructions",
+                            {
+                                "group": "Editing",
+                                "pages": ["installation", "editor"]
+                            }
+                            ]
+                        },
+                        {
+                            "group": "Writing Content",
+                            "pages": ["writing-content/page", "writing-content/text"]
                         }
                         ]
                     },
                     {
-                        "group": "Writing Content",
-                        "pages": ["writing-content/page", "writing-content/text"]
-                    }
+                    "anchor": "Guides",
+                    "icon": "books",
+                    "pages": [
+                        "quickstart"
                     ]
-                },
-                {
-                "anchor": "Guides",
-                "icon": "books",
-                "pages": [
-                    "quickstart"
+                    }
                 ]
                 }
-            ]
-            }
-        ] 
-    },
+            ] 
+        },
   
   "favicon": "/favicon-96x96.png"
     
