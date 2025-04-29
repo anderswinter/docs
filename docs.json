@@ -25,7 +25,7 @@
       },
       {
         "anchor": "API References",
-        "icon": "fa-solid fa-books",
+        "icon": "books",
         "pages": [
           "quickstart"
         ]
