@@ -22,14 +22,14 @@
       {
         "anchor": "Roadmap / Changelog",
         "icon": "chart-gantt",
-        "pages": [
-          "support"
-        ]
+        "href": "https://hub.xray.vitasim.dk/roadmap"
       },
       {
         "anchor": "Support",
         "icon": "headset",
-        "href": "mailto:support@vitasim.dk"
+        "pages": [
+          "support"
+        ]
       },
       {
         "anchor": "Technical Documentation",
