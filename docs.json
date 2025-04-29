@@ -20,6 +20,16 @@
         "href": "https://vitasim.dk/xray"
       },
       {
+        "anchor": "Roadmap / Changelog",
+        "icon": "chart-gantt",
+        "href": "https://hub.xray.vitasim.dk/roadmap"
+      },
+      {
+        "anchor": "Support",
+        "icon": "headset",
+        "href": "mailto:support@vitasim.dk"
+      },
+      {
         "anchor": "Technical Documentation",
         "icon": "book-open",
         "pages": [
@@ -32,16 +42,6 @@
         "pages": [
           "quickstart"
         ]
-      },
-      {
-        "anchor": "Roadmap / Changelog",
-        "icon": "chart-gantt",
-        "href": "https://hub.xray.vitasim.dk/roadmap"
-      },
-      {
-        "anchor": "Support",
-        "icon": "headset",
-        "href": "mailto:support@vitasim.dk"
       }
     ]
   } 
