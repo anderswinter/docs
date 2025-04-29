@@ -55,6 +55,22 @@
             },
             {
             "tab": "test",
+              "anchors": [
+                        {
+                        "anchor": "Welcome",
+                        "icon": "house",
+                        "pages": [ 
+                        "welcome"
+                          ]
+                        },
+                        {
+                        "anchor": "Changelog",
+                        "icon": "house",
+                        "pages": [ 
+                        "changelog"
+                          ]
+                      }
+              ],
               "pages": [ 
                     "mdm-deployment-instructions"
                 ],
