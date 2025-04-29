@@ -38,7 +38,19 @@
                         "href": "https://hub.xray.vitasim.dk/roadmap"
                         }
                     ]
-                }
+                },
+              "anchors": [
+                        {
+                        "anchor": "Homepage ↗",
+                        "icon": "browser",
+                        "href": "https://vitasim.dk/xray"
+                        },
+                        {
+                        "anchor": "Roadmap ↗",
+                        "icon": "chart-gantt",
+                        "href": "https://hub.xray.vitasim.dk/roadmap"
+                        }
+                    ]
             },
             {
             "tab": "test",
