@@ -22,9 +22,6 @@
         "tabs": [
             {
               "tab": "Welcome",
-              "pages": [
-                "welcome"
-                    ],
                 "global": {
                     "anchors": [
                         {
@@ -62,42 +59,7 @@
                 }
             },
             {
-            "tab": "test",
-                "global": {
-                    "anchors": [
-                        {
-                        "anchor": "Homepage ↗",
-                        "icon": "browser",
-                        "href": "https://vitasim.dk/xray"
-                        },
-                        {
-                        "anchor": "Roadmap ↗",
-                        "icon": "chart-gantt",
-                        "href": "https://hub.xray.vitasim.dk/roadmap"
-                        },
-                        {
-                        "anchor": "Changelog",
-                        "icon": "arrow-down-arrow-up",
-                        "pages": [
-                            "changelog"
-                        ]
-                        },
-                        {
-                        "anchor": "Support",
-                        "icon": "headset",
-                        "pages": [
-                            "support"
-                        ]
-                        },
-                        {
-                        "anchor": "Download",
-                        "icon": "download",
-                        "pages": [
-                            "download"
-                        ]
-                        }
-                    ]
-                }
+            "tab": "test"
             }
             ] 
         },
