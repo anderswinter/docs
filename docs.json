@@ -36,7 +36,9 @@
                         "anchor": "Download",
                         "icon": "download",
                         "pages": [ 
-                        "download"
+                        "download", 
+                          "changelog",
+                          "roadmap"
                           ]
                       },
                       {
