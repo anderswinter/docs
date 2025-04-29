@@ -29,7 +29,14 @@
                         "pages": [ 
                         "welcome"
                           ]
-                        }
+                        },
+                        {
+                        "anchor": "Changelog",
+                        "icon": "house",
+                        "pages": [ 
+                        "changelog"
+                          ]
+                      }
               ],
                 "global": {
                     "anchors": [
@@ -44,16 +51,7 @@
                         "href": "https://hub.xray.vitasim.dk/roadmap"
                         }
                     ]
-                },
-                "anchors": [
-                        {
-                        "anchor": "Changelog",
-                        "icon": "house",
-                        "pages": [ 
-                        "changelog"
-                          ]
-                      }
-              ]
+                }
             },
             {
             "tab": "test",
