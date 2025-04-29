@@ -45,7 +45,7 @@
                         "anchor": "Technical documentation",
                         "icon": "books",
                         "pages": [ 
-                        "MDM-deployment-instructions"
+                        "mdm-deployment-instructions"
                           ]
                       }
               ]
