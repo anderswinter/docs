@@ -25,6 +25,15 @@
                 "pages": [ 
                     "welcome"
                 ],
+              "anchors": [
+                        {
+                        "anchor": "test ↗",
+                        "icon": "browser",
+                        "pages": [ 
+                        "changelog"
+                          ]
+                        }
+              ],
                 "global": {
                     "anchors": [
                         {
@@ -36,11 +45,6 @@
                         "anchor": "Roadmap ↗",
                         "icon": "chart-gantt",
                         "href": "https://hub.xray.vitasim.dk/roadmap"
-                        },
-                        {
-                        "anchor": "test ↗",
-                        "icon": "chart-gantt",
-                        "pages": ["changelog"]
                         }
                     ]
                 }
