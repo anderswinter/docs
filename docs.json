@@ -39,18 +39,18 @@
                         }
                     ]
                 },
-              "anchors": [
-                        {
-                        "anchor": "Homepage ↗",
-                        "icon": "browser",
-                        "href": "https://vitasim.dk/xray"
-                        },
-                        {
-                        "anchor": "Roadmap ↗",
-                        "icon": "chart-gantt",
-                        "href": "https://hub.xray.vitasim.dk/roadmap"
-                        }
-                    ]
+                "anchors": [
+                          {
+                          "anchor": "test 1 ↗",
+                          "icon": "browser",
+                          "href": "https://vitasim.dk/xray"
+                          },
+                          {
+                          "anchor": "test 2 ↗",
+                          "icon": "chart-gantt",
+                          "href": "https://hub.xray.vitasim.dk/roadmap"
+                          }
+                ]
             },
             {
             "tab": "test",
