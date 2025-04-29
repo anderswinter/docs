@@ -35,25 +35,21 @@
         ]
       }
     ],
+    "languages": [],
+    "versions": [],
+    "dropdowns": [],
+    "anchors": [],
     "global": {
       "anchors": [
         {
           "anchor": "Documentation",
           "icon": "book-open",
-          "pages": [
-            "quickstart",
-            "development",
-            "navigation"
-          ]
+          "href": "/docs"
         },
         {
           "anchor": "API References",
-          "icon": "sqaure-terminal",
-          "pages": [
-            "api-reference/get",
-            "api-reference/post",
-            "api-reference/delete"
-          ]
+          "icon": "square-terminal",
+          "href": "/api"
         },
         {
           "anchor": "Blog",
