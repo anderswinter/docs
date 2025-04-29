@@ -31,8 +31,9 @@
         ]
       },
       {
-        "anchor": "API References",
-        "href": "https://vitasim.dk"
+        "anchor": "Homepage",
+        "icon": "house",
+        "href": "https://vitasim.dk/xray"
       },
       {
         "anchor": "Blog",
