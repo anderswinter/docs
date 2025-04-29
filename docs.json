@@ -22,6 +22,9 @@
         "tabs": [
             {
               "tab": "Welcome",
+                "pages": [ 
+                    "welcome"
+                ],
                 "global": {
                     "anchors": [
                         {
