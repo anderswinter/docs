@@ -19,73 +19,34 @@
     },
     
     "navigation": {
-        "tabs": [
-            {
-              "tab": "Welcome",
               "anchors": [
                         {
-                        "anchor": "Welcome",
-                        "icon": "house",
-                        "pages": [ 
-                        "welcome"
-                          ]
-                        },
-                        {
-                        "anchor": "Changelog",
-                        "icon": "house",
-                        "pages": [ 
-                        "changelog",
-                          "download"
-                          ]
-                      }
-              ],
-                "global": {
-                    "anchors": [
-                        {
-                        "anchor": "Homepage ↗",
-                        "icon": "browser",
+                        "anchor": "Website",
+                        "icon": "globe",
                         "href": "https://vitasim.dk/xray"
                         },
                         {
-                        "anchor": "Roadmap ↗",
-                        "icon": "chart-gantt",
-                        "href": "https://hub.xray.vitasim.dk/roadmap"
-                        }
-                    ]
-                }
-            },
-            {
-            "tab": "test",
-              "anchors": [
-                        {
-                        "anchor": "Welcome",
-                        "icon": "house",
+                        "anchor": "Support",
+                        "icon": "headset",
                         "pages": [ 
-                        "welcome"
+                        "support"
                           ]
-                        },
-                        {
-                        "anchor": "Changelog",
-                        "icon": "house",
+                      },
+                      {
+                        "anchor": "Download",
+                        "icon": "download",
                         "pages": [ 
-                        "changelog"
+                        "download"
+                          ]
+                      },
+                      {
+                        "anchor": "Technical documentation",
+                        "icon": "books",
+                        "pages": [ 
+                        "MDM-deployment-instructions"
                           ]
                       }
-              ],
-              "pages": [ 
-                    "mdm-deployment-instructions"
-                ],
-              "global": {
-                    "anchors": [
-                        {
-                        "anchor": "Homepage ↗",
-                        "icon": "browser",
-                        "href": "https://vitasim.dk/xray"
-                        }
-                    ]
-                }
-            }
-            ] 
+              ]
         },
   
   "favicon": "/favicon-96x96.png"
