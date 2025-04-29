@@ -22,7 +22,9 @@
       {
         "anchor": "Roadmap / Changelog",
         "icon": "chart-gantt",
-        "href": "https://hub.xray.vitasim.dk/roadmap"
+        "pages": [
+          "support"
+        ]
       },
       {
         "anchor": "Support",
