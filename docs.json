@@ -41,7 +41,10 @@
                 }
             },
             {
-            "tab": "test"
+            "tab": "test",
+              "pages": [ 
+                    "welcome"
+                ]
             }
             ] 
         },
