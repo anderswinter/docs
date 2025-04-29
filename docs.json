@@ -32,6 +32,13 @@
         ]
       },
       {
+        "anchor": "Download",
+        "icon": "download",
+        "pages": [
+          "download"
+        ]
+      },
+      {
         "anchor": "Technical Documentation",
         "icon": "book-open",
           "groups": [
