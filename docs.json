@@ -43,7 +43,7 @@
             {
             "tab": "test",
               "pages": [ 
-                    "welcome"
+                    "mdm-deployment-instructions"
                 ]
             }
             ] 
