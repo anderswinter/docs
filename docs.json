@@ -34,9 +34,22 @@
       {
         "anchor": "Technical Documentation",
         "icon": "book-open",
-        "pages": [
-          "development"
-        ]
+          "groups": [
+            {
+              "group": "Getting Started",
+              "pages": [
+                "quickstart",
+                {
+                  "group": "Editing",
+                  "pages": ["installation", "editor"]
+                }
+              ]
+            },
+            {
+              "group": "Writing Content",
+              "pages": ["writing-content/page", "writing-content/text"]
+            }
+          ]
       },
       {
         "anchor": "Guides",
