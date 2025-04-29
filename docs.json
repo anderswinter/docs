@@ -30,13 +30,6 @@
         "tab": "test",
             "anchors": [
                 {
-                "anchor": "Welcome",
-                "icon": "house",
-                "pages": [
-                    "welcome"
-                ]
-                },
-                {
                 "anchor": "Homepage ↗",
                 "icon": "browser",
                 "href": "https://vitasim.dk/xray"
