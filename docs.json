@@ -15,7 +15,12 @@
   "navigation": {
     "anchors": [
       {
-        "anchor": "Documentation",
+        "anchor": "Homepage",
+        "icon": "house",
+        "href": "https://vitasim.dk/xray"
+      },
+      {
+        "anchor": "Technical Documentation",
         "icon": "book-open",
         "pages": [
           "quickstart",
@@ -24,20 +29,15 @@
         ]
       },
       {
-        "anchor": "API References",
+        "anchor": "Guides",
         "icon": "books",
         "pages": [
           "quickstart"
         ]
       },
       {
-        "anchor": "Homepage",
-        "icon": "house",
-        "href": "https://vitasim.dk/xray"
-      },
-      {
-        "anchor": "Blog",
-        "href": "https://external-link.com/blog"
+        "anchor": "Roadmap / Changelog",
+        "href": "https://hub.xray.vitasim.dk/roadmap"
       }
     ]
   }
