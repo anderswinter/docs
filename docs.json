@@ -47,6 +47,13 @@
                         "pages": [ 
                         "mdm-deployment-instructions"
                           ]
+                      },
+                      {
+                        "anchor": "TGuides",
+                        "icon": "books",
+                        "pages": [ 
+                        "guide 1"
+                          ]
                       }
               ]
         },
