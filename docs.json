@@ -2,63 +2,80 @@
   
     "$schema": "https://mintlify.com/docs.json",
     
-    "theme": "mint",
+    "theme": "maple",
   
     "logo": {
-      "light": "/logo.png",      
-      "dark": "/logo-dark.png",  
+      "light": "/Logo/logo.png",      
+      "dark": "/Logo/logo-dark.png",  
       "href": "https://vitasim.dk/xray"
     },
     
     "name": "X-ray Simulator support",
     
     "colors": {
-      "primary": "#ba8236",
-      "light": "#ba8236",
-      "dark": "#ba8236"
+      "primary": "#bc8337",
+      "light": "#bc8337",
+      "dark": "#bcF337"
     },
     
-    "navigation": {
-              "anchors": [
+    "navigation": {          
+      "anchors": [
+                  {
+                  "anchor": "Website",
+                  "icon": "globe",
+                  "href": "https://vitasim.dk/xray"
+                  },
+                  {
+                  "anchor": "Support",
+                  "icon": "headset",
+                  "pages": [ 
+                  "/Support/support"
+                    ]
+                },
+                {
+                  "anchor": "Download",
+                  "icon": "download",
+                  "pages": [ 
+                  "/Download/download", 
+                    "/Download/changelog",
+                    "/Download/roadmap"
+                    ]
+                },
+                {
+                  "anchor": "Technical documentation",
+                  "icon": "books",
+                  "groups": [
+                    {
+                      "group": "Getting Started",
+                      "pages": [
+                        "/Technical Documentation/mdm-deployment-instructions",
+                        "/Technical Documentation/technical and security FAQ",
                         {
-                        "anchor": "Website",
-                        "icon": "globe",
-                        "href": "https://vitasim.dk/xray"
-                        },
-                        {
-                        "anchor": "Support",
-                        "icon": "headset",
-                        "pages": [ 
-                        "support"
-                          ]
-                      },
-                      {
-                        "anchor": "Download",
-                        "icon": "download",
-                        "pages": [ 
-                        "download", 
-                          "changelog",
-                          "roadmap"
-                          ]
-                      },
-                      {
-                        "anchor": "Technical documentation",
-                        "icon": "books",
-                        "pages": [ 
-                        "mdm-deployment-instructions"
-                          ]
-                      },
-                      {
-                        "anchor": "Guides",
-                        "icon": "books",
-                        "pages": [ 
-                        "guide 1"
-                          ]
-                      }
-              ]
+                          "group": "Setup and Installation Guides",
+                          "pages": ["/Technical Documentation/setup and installation guides/VR X-ray Simulator Setup", 
+                          "/Technical Documentation/setup and installation guides/Desktop X-ray Simulator Setup"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "anchor": "Guides",
+                  "icon": "books",
+                  "groups": [
+                    {
+                      "group": "Introduction",
+                      "pages": [
+                        "/Guides/Introduction/understanding the X-ray Simulator",
+                        "/Guides/Introduction/understanding the programs involved"
+                      ]
+                    }
+                  ]
+                }
+          ]
         },
   
-  "favicon": "/favicon-96x96.png"
+  "favicon": "Favicon/favicon-96x96.png"
     
   }
   
