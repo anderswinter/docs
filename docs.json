@@ -1,81 +1,107 @@
 {
-  
-    "$schema": "https://mintlify.com/docs.json",
-    
-    "theme": "maple",
-  
-    "logo": {
-      "light": "/Logo/logo.png",      
-      "dark": "/Logo/logo-dark.png",  
-      "href": "https://vitasim.dk/xray"
-    },
-    
-    "name": "X-ray Simulator support",
-    
-    "colors": {
-      "primary": "#bc8337",
-      "light": "#bc8337",
-      "dark": "#bcF337"
-    },
-    
-    "navigation": {          
-      "anchors": [
-                  {
-                  "anchor": "Website",
-                  "icon": "globe",
-                  "href": "https://vitasim.dk/xray"
-                  },
-                  {
-                  "anchor": "Support",
-                  "icon": "headset",
-                  "pages": [ 
-                  "/Support/support"
-                    ]
-                },
-                {
-                  "anchor": "Download",
-                  "icon": "download",
-                  "pages": [ 
-                  "/Download/download", 
-                    "/Download/changelog",
-                    "/Download/roadmap"
-                    ]
-                },
-                {
-                  "anchor": "Technical documentation",
-                  "icon": "books",
-                  "groups": [
-                    {
-                      "group": "Getting Started",
-                      "pages": [
-                        "/Technical Documentation/mdm-deployment-instructions",
-                        "/Technical Documentation/technical and security FAQ",
-                        {
-                          "group": "Setup and Installation Guides",
-                          "pages": ["/Technical Documentation/setup and installation guides/VR X-ray Simulator Setup", 
-                          "/Technical Documentation/setup and installation guides/Desktop X-ray Simulator Setup"]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "anchor": "Guides",
-                  "icon": "books",
-                  "groups": [
-                    {
-                      "group": "Introduction",
-                      "pages": [
-                        "/Guides/Introduction/understanding the X-ray Simulator",
-                        "/Guides/Introduction/understanding the programs involved"
-                      ]
-                    }
-                  ]
-                }
-          ]
-        },
-  
-  "favicon": "Favicon/favicon-96x96.png"
-    
-  }
-  
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "logo": {
+    "light": "/Logo/logo.png",
+    "dark": "/Logo/logo-dark.png",
+    "href": "https://vitasim.dk/xray"
+  },
+  "name": "X-ray Simulator support",
+  "colors": {
+    "primary": "#bc8337",
+    "light": "#bc8337",
+    "dark": "#bc8337"
+  },
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Website",
+        "icon": "globe",
+        "href": "https://vitasim.dk/xray"
+      },
+      {
+        "anchor": "Support",
+        "icon": "headset",
+        "pages": ["/Support/support"]
+      },
+      {
+        "anchor": "Download",
+        "icon": "download",
+        "pages": [
+          "/Download/download",
+          "/Download/changelog",
+          "/Download/roadmap"
+        ]
+      },
+      {
+        "anchor": "Technical documentation",
+        "icon": "books",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              {
+                "group": "Setup and Installation Guides",
+                "pages": [
+                  "/Tech/Setup-and-installation-guides/VR-X-ray-Simulator-Setup",
+                  "/Tech/Setup-and-installation-guides/Desktop-X-ray-Simulator-Setup"
+                ]
+              },
+              "/Tech/mdm-deployment-instructions",
+              "/Tech/technical-and-security-FAQ",
+              "/Tech/how-to-setup-meta-quest-link"
+            ]
+          },
+          {
+            "group": "Requirements",
+            "pages": [
+              "/Tech/minimum-requirements-for-running-the-vr-xray-simulator",
+              "/Tech/minimum-requirements-for-running-the-desktop-xray-simulator",
+              "/Tech/vr-hardware-requirements-for-meta-link"
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": "Guides",
+        "icon": "books",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "/Guides/Introduction/accounts-and-login",
+              "/Guides/Introduction/vr-quick-start-guide",
+              "/Guides/Introduction/vr-navigation-and-interaction",
+              "/Guides/Introduction/understanding-the-X-ray-Simulator",
+              "/Guides/Introduction/understanding-the-programs-involved",
+              "/Guides/Printable-guides-and-templates"
+            ]
+          },
+          {
+            "group": "Purchasing",
+            "pages": [
+              "Guides/purchasing/example-of-portable",
+              "Guides/purchasing/example-of-stationary"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "favicon": "Favicon/favicon-96x96.png",
+
+    "navbar": {
+      "links": [
+        {
+          "label": "Give us feedback",
+          "href": "https://roadmap.xraysim.com"
+        }
+      ],
+      "primary": {
+        "label": "Talk to Sales",
+        "href": "https://www.vitasim.dk/contact/",
+        "type": "button"
+      }
+    }
+}
