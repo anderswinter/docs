@@ -2,3 +2,91 @@
 title: "VR X-ray Simulator Setup"
 description: "This guide will walk you through setting up your VR headset, preparing your PC or workstation with the necessary software, and connecting the headset to launch the application."
 ---
+
+<Note>
+    Skip this guide if you purchased your VR headset and PC through VitaSim, as we have pre-installed and set up your PC and headset for immediate use - unless otherwise arranged with your dedicated customer success manager.
+
+</Note>
+
+# Introduction
+Running the VR X-ray Simulator requires a **Meta Quest VR headset** and a **VR Ready PC or Laptop**. 
+When the equipment have been acquired, follow the below steps to setup your equipment. 
+
+Read more about the right equipment to purchase in the purchasing example 
+for a [Stationary VR station](/Guides/purchasing/example-of-stationary) and a [Portable VR station](/Guides/purchasing/example-of-portable)
+
+# Setup your Meta Quest VR headset
+
+
+<Steps>
+    <Step title="Create a Meta account">
+        Create a Meta account on the [official Meta website](https://auth.meta.com)  
+    </Step>
+    <Step title="Download the Meta phone app">
+        Download the Meta app to your phone from the [Android app store](https://play.google.com/store/apps/details?id=com.oculus.twilight\&hl=en) or the [Apple app store](https://apps.apple.com/us/app/meta-quest/id1366478176)
+    </Step>
+    <Step title="Login to the Meta app on your phone using your Meta Account">
+
+    </Step>
+    <Step title="Follow the setup instructions in the VR headset">
+    Turn on the VR headset, mount it on your head and follow the setup instructions in the display. Keep your phone close, as there will be 
+    steps to perform on the phone.
+    </Step>
+</Steps>
+
+
+# Setup your PC or workstation 
+
+You'll need two pieces of software to run the VR X-Ray Simulator. The VR **X-Ray Simulator** to run the simulation on 
+the pc/workstation and the **Meta Quest Link application** to connects the PC/workstation to the VR headset to display the simulation and get input from the controllers.
+
+## Prerequisites before setup
+
+* You need [hardware admin](https://support.microsoft.com/en-gb/office/check-if-you-have-local-admin-rights-to-install-office-edc2f78a-e6b7-4041-917b-8136afb0a654) access rights on the PC/workstation before you can download and install the software.
+* You will need your [Meta account](https://auth.meta.com).
+
+<Note>
+NOTICE for IT admins: The VR X-Ray Simulator support multi-user PC/workstation installation using MDM systems, like InTune. 
+Se the [MDM setup guide](/Tech/mdm-deployment-instructions) for details on running silent installs using command line arguments.    
+</Note>
+
+## When you meet the Prerequisites follow these steps
+
+<Steps>
+    <Step title="Download and install the VR X-Ray Simulator on the PC/workstation">
+The VR X-Ray Simulator is available for download on the Download page. \
+Choose the newest version in your language.
+
+<Card
+    title="Download the X-ray Simulator"
+    icon="Download"
+    href="/Download/download"
+>
+</Card>
+
+<Note>
+During the download and installation process, your browser or PC may alert you about "uncertified software." To proceed, click on "Advanced" or "Read more," then accept the risk to continue with the installation.    
+</Note>
+
+    </Step>
+    <Step title="Download and install Meta Quest Link on the PC/workstation">
+        Meta provides a companion application for its VR headsets that enables the VR headset to connect to your PC/workstation and display the VR X-Ray Simulator in the VR headset.
+
+[Download Meta Quest Link here.](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/)
+
+Follow the setup and installation instructions. Login with your Meta account when prompted.
+    </Step>
+    <Step title="Adjust the Meta Quest Link settings">
+Open Meta Quest Link, go to **Settings** > **General**, enable **“Unknown Sources”** and ensure that **“OpenXR Runtime”** is set to **”Set Meta Quest Link as act...”**
+    </Step>
+</Steps>
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/watch?v=Y504kwXNh-Q"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>

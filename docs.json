@@ -15,9 +15,9 @@
   "navigation": {
     "anchors": [
       {
-        "anchor": "Website",
-        "icon": "globe",
-        "href": "https://vitasim.dk/xray"
+        "anchor": "Welcome",
+        "icon": "House",
+        "pages": ["welcome"]
       },
       {
         "anchor": "Support",
@@ -99,7 +99,7 @@
         }
       ],
       "primary": {
-        "label": "Talk to Sales",
+        "label": "Visit the Website",
         "href": "https://www.vitasim.dk/contact/",
         "type": "button"
       }
