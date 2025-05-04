@@ -1,18 +1,23 @@
 ---
-title: "MDM deployment instructions"
+title: "MDM deployment instructions (VR and Desktop)"
 description: "Best practice for deploying the X-ray simulator using Intune or other MDM systems"
 ---
 
 ## Important Information for IT Departments
 
-The Desktop X-Ray Simulator is distributed as a standalone `.exe` installer.\
-To deploy the application silently through your MDM system, please use the command provided below.
+The Desktop and VR X-Ray Simulator is distributed as a standalone `.exe` installer.\
+To deploy either application silently through your MDM system, please use the command provided below.
 
 ## Official Silent Install Command
+
+<Note>
+  Change the file name and path to suite the version that your are installing. 
+</Note>
 
 ```bash
 "SIGNED_Setup Desktop X-Ray Simulator v1.0.0-rc.2.exe" /verysilent /norestart /suppressmsgboxes /log="C:\Windows\Temp\XRaySimulatorInstall.log"
 ```
+
 
 This ensures:
 
@@ -26,14 +31,20 @@ This ensures:
 - Application installs by default to:
 
   ```bash
-  C:\Program Files\VitaSim\Desktop X-Ray Simulator\
+  C:\Program Files\VitaSim\<platform> X-Ray Simulator\
   ```
+  Platform varies with VR or Desktop version.
+
 - No license entry or additional configuration is required at install time.
 - Installation must be run with **administrative privileges**.
 
 ### Silent Uninstallation (Optional)
 
 If a silent uninstall command is required, use:
+<Note>
+  Change the file name depending on what version you are uninstalling, and change the path if you changed the default install location. 
+</Note>
+
 
 ```bash
 "C:\Program Files\VitaSim\Desktop X-Ray Simulator\unins000.exe" /verysilent /norestart /suppressmsgboxes /log="C:\Windows\Temp\XRaySimulatorUninstall.log"

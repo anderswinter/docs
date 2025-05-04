@@ -34,7 +34,42 @@
         ]
       },
       {
-        "anchor": "Technical guides",
+        "anchor": "Procurement Support",
+        "icon": "books",
+        "groups":[
+          {
+            "group": "Introduction",
+            "pages": [
+              "/Procurement/Introduction"
+            ]
+          },
+          {
+            "group": "Purchasing and Equipment",
+            "pages": [
+              "/Procurement/Software Licensing",
+              "/Procurement/Equipment Procurement",
+              "Guides/purchasing/example-of-portable",
+              "Guides/purchasing/example-of-stationary"
+            ]
+          },
+          {
+            "group": "Security and IT Approval",
+            "pages": [
+              "/Procurement/Security and IT approval",
+              "/Tech/technical-and-security-FAQ"
+            ]
+          },
+          {
+            "group": "Vendor and Legal Approval",
+            "pages": [
+              "/Procurement/Vendor approval"
+            ]
+          }
+
+        ]
+      },
+      {
+        "anchor": "Technical Documentation",
         "icon": "books",
         "groups": [
           {
@@ -56,32 +91,29 @@
           {
             "group": "Cross-product documentation",
             "pages": [
-              "/Tech/mdm-deployment-instructions",
-              "/Tech/technical-and-security-FAQ"
+              "/Tech/mdm-deployment-instructions"
             ]
           }
         ]
       },
       {
-        "anchor": "Product and educator guides",
+        "anchor": "Product and Educator Guides",
         "icon": "books",
         "groups": [
           {
-            "group": "Introduction",
+            "group": "Useful Knowledge",
             "pages": [
-              "/Guides/Introduction/accounts-and-login",
-              "/Guides/Introduction/vr-quick-start-guide",
-              "/Guides/Introduction/vr-navigation-and-interaction",
               "/Guides/Introduction/understanding-the-X-ray-Simulator",
               "/Guides/Introduction/understanding-the-programs-involved",
-              "/Guides/Printable-guides-and-templates"
+              "/Guides/Introduction/accounts-and-login"
             ]
           },
           {
-            "group": "Purchasing",
+            "group": "VR Guides",
             "pages": [
-              "Guides/purchasing/example-of-portable",
-              "Guides/purchasing/example-of-stationary"
+              "/Guides/Introduction/vr-quick-start-guide",
+              "/Guides/Introduction/vr-navigation-and-interaction",
+              "/Guides/Printable-guides-and-templates"
             ]
           }
         ]

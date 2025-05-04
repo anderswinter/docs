@@ -80,7 +80,7 @@ No. The X-ray Simulator does not collect, store, or process electronic protected
 
 * **Encryption**: All data transmissions related to authentication are encrypted using industry-standard protocols.
 * **Access Management**: Institutions control user access through assigned credentials.
-* **Data Governance**: No real patient data is processed or stored within the application.
+* **Data Governance**: No PII data is processed or stored within the application.
 * **Audit Logging**: The system maintains detailed logs to track user activity for compliance and security monitoring.
 
 ## **Hosting & Compliance**
@@ -94,6 +94,46 @@ The X-ray Simulator is a locally installed desktop application. It does require 
 * The X-ray Simulator does not store personal data, ensuring compliance with institutional privacy policies.
 * All authentication requests are securely encrypted to prevent unauthorized access.
 * The system logs user activity and performance data for troubleshooting and optimization.
+
+### Can you provide a data flow diagram of the infrastructure. 
+Yes. Here is the simplified data flow diagram. 
+```mermaid
+flowchart TD
+
+    subgraph User Layer
+        Users[[Generic Users X1, X2, ...]]
+    end
+
+    subgraph Application Layer
+        Auth[Send login credentials]
+        Log[Send activity and health data]
+        Save[Send save request with user data]
+    end
+
+    subgraph Backend Layer
+        API[Portal API - portal.vitasim.dk]
+    end
+
+    subgraph Data Storage Layer
+        DB[MySQL Database - auth and logs]
+        Storage[Google Cloud Storage EMEA - saved progress]
+    end
+
+    %% User to App
+    Users -->|Username and password| Auth
+    Users -->|FPS, usage time, errors| Log
+    Users -->|Progress as JSON| Save
+
+    %% App to API
+    Auth -->|POST /login| API
+    Log -->|POST /log| API
+    Save -->|POST /save| API
+
+    %% API to Storage
+    API -->|SELECT, INSERT auth, logs| DB
+    API -->|Upload JSON file| Storage
+
+```
 
 ## **Institutional Integration & Deployment**
 
@@ -111,10 +151,10 @@ The X-ray Simulator is used by:
 
 ### **User Management**
 
-The X-ray Simulator uses a **“dump” user** system where institutions are provided with a set of usernames and passwords (e.g., User X1 with password X1, and X2 with password X2, etc.). These users can be assigned to students as needed. This approach ensures:
+The X-ray Simulator uses a system of **predefined user accounts**, where institutions are provided with a set of usernames and passwords (e.g., User X1 with password X1, User X2 with password X2, etc.). These accounts can be distributed to students as needed. This approach offers several advantages:
 
-* No personal user data is stored.
-* Users can be reset upon request.
-* Simple administration with no role-based access levels.
+* No personal user data is collected or stored.
+* Accounts can be easily reset upon request.
+* Simplified user management with no need for role-based access or individual account creation.
 
-For further inquiries or technical support, please contact our IT security team at **support@vitasim.dk** or visit **support.xraysim.com**.
+For further inquiries or technical support, please contact our IT security team at **support@vitasim.dk**.
