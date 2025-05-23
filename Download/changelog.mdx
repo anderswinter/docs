@@ -4,72 +4,88 @@ description: "Read about the latest software changes"
 ---
 
 <Update label="V.1.8.0" description>
-  
-   # New regions
-   We have been hard at work to offer new regions for simulation training. The top priority have been Skull, spine and thorax. 
-  <Accordion
-    title="Skull"
-  >
-  This is a description of the skull region
-  ### Projections
-  The skull region is build based on references from merills and bontrager and supports at least:
-  - AP 
-  - PA 
 
-  </Accordion>
+# Version 1.8.0 – Major Update
 
-<Accordion
-  title="Bony Thorax"
+Download the newest version of the X-ray Simulator on the [download page](/Download/download)
+
+---
+
+## Expanded Simulation Catalog
+
+Five new anatomical regions have been introduced with full positional controls and anatomical models:
+
+![New Regions](/Assets/New_regions.jpg)
+
+The new regions include:
+- **Ribs** *(+ Sternum)*  
+- **Cervical Spine (C-Spine)**  
+- **Thoracic Spine (T-Spine)**  
+- **Lumbar Spine (L-Spine)**  
+- **Skull**  
+
+<Card
+  title="Download the Simulation Catalog (pdf)"
+  icon="download"
+  href="https://25168238.fs1.hubspotusercontent-eu1.net/hubfs/25168238/Simulation%20catalog%20v1.8.0.pdf"
 >
+If you want to explore all the details of the new regions, you can find them in the Simulation Catalog (PDF).
+</Card>
 
-  This is a description of the skull region
-  ### Projections
-  The skull region is build based on references from merills and bontrager and supports at least:
-  - AP 
-  - PA 
-</Accordion>
+---
 
+## Core Improvements
 
+### 🖥️ Desktop X-ray Simulator
 
-<Accordion
-  title="C-spine"
->
-    ## C-Spine
-  This is a description of the skull region
-  ### Projections
-  The skull region is build based on references from merills and bontrager and supports at least:
-  - AP 
-  - PA 
-  
-</Accordion>
+- **Redesigned Region Selection**: 
+  ```
+  Region → Examen → Simulation
+  ```
+  This update simplifies navigation and aligns with the categorization used in most RadTech positioning books.
+  ![Updated desktop navigation](/Assets/New_choose_region.jpg)
 
-<Accordion
-  title="T-Spine"
->
-  ## T-Spine
-  This is a description of the skull region
-  ### Projections
-  The skull region is build based on references from merills and bontrager and supports at least:
-  - AP 
-  - PA 
-  
-</Accordion>
-  
-  <Accordion
-    title="L-Spine"
-  >
-    ## L-Spine
-  This is a description of the skull region
-  ### Projections
-  The skull region is build based on references from merills and bontrager and supports at least:
-  - AP 
-  - PA 
+- **Control Panel Overhaul**:
+  - Cleaner layout with more intuitive grouping.
+  - The new **View Controls** panel allows you to toggle "collimation mode" via the grid-icon UI.
+  - The Technique panel now shows an **estimate of the collimation cut-off size**.
+  - Tube positioning controls now show an estimate of SID based on tube position and angle.
+  ![New control panel](/Assets/New_controls.jpg)
 
-  
-  </Accordion>
+- **New Functionalities**:
+  - Users can now toggle skin visibility on the patient model.
+  - Users can now adjust bed height via a slider for improved positioning practice.
 
-# Patient movement
+- **Patient Movement**:
+  - The patient can now be translated either in the horizontal plane (for standing) or the frontal plane (for supine). 
 
-  # Bug fixes and improvements 
+<iframe className="w-full aspect-video rounded-xl" 
+    src="https://www.youtube.com/embed/xKvzwNMf4aA" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen />
+---
+
+## 🥽 VR X-ray Simulator
+
+- **New Patient Gizmo**:
+  A virtual tool has been introduced to grab and reposition the patient.
+  Grab and drag the control gizmo to reposition the patient.
+<iframe className="w-full aspect-video rounded-xl" 
+    src="https://www.youtube.com/embed/sxzYWeHZRDE" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen />
+
+- **UI Enhancements**:
+  - Users can now grab the plate from all sides.
+  - Estimated collimator size and SID are now visible in the tube display.
+  ![Tube data](/Assets/Tube_data.jpg)
+
+---
+
+Feedback and support: [support.xraysim.com](https://support.xraysim.com) or support@vitasim.dk
 
 </Update>
