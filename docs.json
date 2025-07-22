@@ -79,6 +79,7 @@
             "group": "VR Guides",
             "pages": [
               "/Guides/Introduction/vr-quick-start-guide",
+              "/Guides/detailed-setup-guide",
               "/Guides/Introduction/vr-navigation-and-interaction",
               "/Guides/Printable-guides-and-templates"
             ]
