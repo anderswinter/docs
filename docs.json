@@ -4,7 +4,7 @@
   "logo": {
     "light": "/Logo/logo.png",
     "dark": "/Logo/logo-dark.png",
-    "href": "https://vitasim.dk/xray"
+    "href": "https://support.xraysim.com/welcome"
   },
   "name": "X-ray Simulator support",
   "colors": {
@@ -101,7 +101,7 @@
       ],
       "primary": {
         "label": "Visit the Website",
-        "href": "https://www.vitasim.dk/contact/",
+        "href": "https://www.vitasim.dk/x-ray",
         "type": "button"
       }
     }
