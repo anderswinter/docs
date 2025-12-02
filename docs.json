@@ -104,5 +104,9 @@
         "href": "https://www.vitasim.dk/x-ray",
         "type": "button"
       }
-    }
+    },
+  "banner": {
+    "content": "**Action required:** Migrate to our new version by January 1. [Migration guide](/migration)",
+    "dismissible": true
+  }
 }
