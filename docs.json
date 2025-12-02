@@ -106,7 +106,7 @@
       }
     },
   "banner": {
-    "content": "**Action required:** Migrate to our new version by January 1. [Migration guide](/migration)",
+    "content": "**test**",
     "dismissible": true
   }
 }
