@@ -1,0 +1,71 @@
+---
+title: "Getting Started with the Desktop X-ray Simulator"
+description: "Learn how to install and launch the Desktop X-ray Simulator, open up your first case, and get familiar with the core controls and workflow."
+---
+
+### Installation and Login
+
+<DesktopXRaySimulatorSteps />
+
+import DesktopXRaySimulatorSteps from '/snippets/Desktop-X-ray-Simulator-steps.mdx';
+
+### Navigation and Controls
+
+<Steps>
+  <Step title="Logging in">
+    Open the Desktop X-ray Simulator application and enter your username and password on the login screen. Click **Login** to proceed. Your credentials are provided by your institution's administrator.
+
+    <Frame>
+      ![Desktop Xray Sim Login Screen](/images/Desktop-xray-sim-login-screen.png)
+    </Frame>
+  </Step>
+  <Step title="Selecting a case">
+    After logging in, you are taken to the case selection screen. Start by choosing a body region in the left column - for example, _Upper extremity and shoulder girdle_. The middle column updates to show available exams for that region; select one to populate the right column with simulation cases. Click the arrow next to a case to load it.
+
+    <Frame>
+      ![Desktop X Ray Simulator Choose Case](/images/Desktop-x-ray-simulator-choose-case.png)
+    </Frame>
+  </Step>
+  <Step title="The simulation workspace">
+    Once a case loads, the workspace is divided into three panels. **A** is the overhead 3D view of the room, showing the patient, table, and X-ray tube at a glance. **B** is the secondary viewport, displaying a closer angle of the scene - useful for assessing patient and tube positioning in relation to each other. **C** is the X-ray output panel, which displays the most recent exposure and updates in real time as you adjust parameters.
+
+    <Frame>
+      ![Desktop Xray Simulator Windows](/images/desktop-xray-simulator-windows.png)
+    </Frame>
+  </Step>
+  <Step title="Patient controls">
+    The **Patient controls** panel **(D)** is at the top of the right sidebar. Use _Choose projection_ to switch between AP and Lateral. The sliders below let you adjust joint position - elbow flexion/extension, shoulder rotation, and wrist pronation/supination. Use _Move patient_ to reposition the patient on the table.
+
+    <Frame>
+      ![Deskotpxraysimpatientcontrols](/images/Deskotpxraysimpatientcontrols.png)
+    </Frame>
+  </Step>
+  <Step title="View controls">
+    The **View controls** panel **(E)** sits below Patient controls. Use the four view icons under _Choose view_ to switch the secondary viewport **(B)** between different camera angles. The _Toggle skin_ checkbox switches the patient model between a surface view and a skeletal/transparent view, useful for assessing anatomy and tube alignment.
+
+    <Frame>
+      ![Desktopxraysimviewcontrols](/images/desktopxraysimviewcontrols.png)
+    </Frame>
+  </Step>
+  <Step title="Tube positioning">
+    The **Tube positioning** panel **(F)** controls the physical position of the X-ray tube. The arrow clusters adjust the tube horizontally and vertically. _SID_ (Source-to-Image Distance) is displayed in real time as you move the tube. Use the _Tube angulation_, _Collimator rotation_, and _Column rotation_ sliders to fine-tune the angle and orientation of the beam.
+
+    <Frame>
+      ![Desktopxraysimtubepositioning](/images/desktopxraysimtubepositioning.png)
+    </Frame>
+  </Step>
+  <Step title="Technique">
+    The **Technique** panel **(G)** is where you set your exposure parameters. Adjust _mAs_ to control the radiation dose and _kVp_ to set the beam energy. The _Collimator cutoff_ sliders control field size in the X and Y axes, with the resulting dimensions shown in centimetres and inches below each slider. Changes here are reflected immediately in the X-ray output panel **(C)**.
+
+    <Frame>
+      ![Desktopxraysim Technicque](/images/desktopxraysimTechnicque.png)
+    </Frame>
+  </Step>
+  <Step title="Post processing and image export">
+    The **Post processing** panel **(H)** provides two image processing buttons for adjusting the appearance of the exposure. Tick _Show data on image_ to overlay exposure parameters directly on the X-ray. Below it, the **Image export** panel **(I)** shows the save location on your computer. Click **Save image** to export the current exposure as an image file to that folder.
+
+    <Frame>
+      ![Desktopxraysimpostpros](/images/desktopxraysimpostpros.png)
+    </Frame>
+  </Step>
+</Steps>

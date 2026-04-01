@@ -118,7 +118,8 @@
               {
                 "group": "Desktop X-ray Simulator",
                 "pages": [
-                  "Guides/Introduction/understanding-the-programs-involved-Desktop"
+                  "Guides/Introduction/understanding-the-programs-involved-Desktop",
+                  "Guides/Introduction/getting-started-Desktop-x-ray"
                 ]
               }
             ]
