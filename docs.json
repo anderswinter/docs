@@ -13,75 +13,114 @@
     "dark": "#bc8337"
   },
   "navigation": {
-    "anchors": [
+    "tabs": [
       {
-        "anchor": "Welcome",
-        "icon": "House",
-        "pages": ["welcome"]
-      },
-      {
-        "anchor": "Support",
-        "icon": "headset",
-        "pages": ["/Support/support"]
-      },
-      {
-        "anchor": "Download",
-        "icon": "download",
-        "pages": [
-          "/Download/download",
-          "/Download/changelog",
-          "/Download/upgrade-guide"
-        ]
-      },
-      {
-        "anchor": "Technical Documentation",
-        "icon": "books",
-        "groups": [
+        "tab": "Welcome",
+        "anchors": [
           {
-            "group": "VR X-ray Simulator setup guides",
+            "anchor": "Welcome",
+            "icon": "House",
             "pages": [
-              "/Tech/Setup-and-installation-guides/VR-X-ray-Simulator-Setup",
-              "/Tech/minimum-requirements-for-running-the-vr-xray-simulator",
-              "/Tech/how-to-setup-meta-quest-link",
-              "/Tech/vr-hardware-requirements-for-meta-link",
-              "Guides/purchasing/example-of-portable",
-              "Guides/purchasing/example-of-stationary"
-            ]
-          },
-          {
-            "group": "Desktop X-ray Simulator guides",
-            "pages": [
-              "/Tech/Setup-and-installation-guides/Desktop-X-ray-Simulator-Setup",
-              "/Tech/minimum-requirements-for-running-the-desktop-xray-simulator"
-            ]
-          },
-          {
-            "group": "Cross-product documentation",
-            "pages": [
-              "/Tech/mdm-deployment-instructions"
+              "welcome",
+              "/Guides/Introduction/understanding-the-X-ray-Simulator"
             ]
           }
         ]
       },
       {
-        "anchor": "Product and Educator Guides",
-        "icon": "books",
-        "groups": [
+        "tab": "Support",
+        "anchors": [
           {
-            "group": "Useful Knowledge",
+            "anchor": "Support",
+            "icon": "headset",
             "pages": [
-              "/Guides/Introduction/understanding-the-X-ray-Simulator",
-              "/Guides/Introduction/understanding-the-programs-involved",
-              "/Guides/Introduction/accounts-and-login"
+              "/Support/support"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Download",
+        "anchors": [
+          {
+            "anchor": "Download",
+            "icon": "download",
+            "pages": [
+              "/Download/download",
+              "/Download/changelog",
+              "/Download/upgrade-guide"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "VR X-ray Simulator",
+        "anchors": [
+          {
+            "anchor": "Technical Documentation",
+            "groups": [
+              {
+                "group": "VR X-ray Simulator setup guides",
+                "pages": [
+                  "/Tech/Setup-and-installation-guides/VR-X-ray-Simulator-Setup",
+                  "/Tech/minimum-requirements-for-running-the-vr-xray-simulator",
+                  "/Tech/how-to-setup-meta-quest-link",
+                  "/Tech/vr-hardware-requirements-for-meta-link",
+                  "Guides/purchasing/example-of-portable",
+                  "Guides/purchasing/example-of-stationary",
+                  "/Tech/mdm-deployment-instructions"
+                ]
+              }
             ]
           },
           {
-            "group": "VR Guides",
-            "pages": [
-              "/Guides/Introduction/vr-quick-start-guide",
-              "/Guides/detailed-setup-guide",
-              "/Guides/Introduction/vr-navigation-and-interaction",
-              "/Guides/Printable-guides-and-templates"
+            "anchor": "Product and Educator Guides",
+            "groups": [
+              {
+                "group": "VR Guides",
+                "pages": [
+                  "/Guides/Introduction/vr-quick-start-guide",
+                  "/Guides/detailed-setup-guide",
+                  "/Guides/Introduction/vr-navigation-and-interaction",
+                  "/Guides/Printable-guides-and-templates"
+                ]
+              },
+              {
+                "group": "Useful Knowledge",
+                "pages": [
+                  "Guides/Introduction/understanding-the-programs-involved-VR",
+                  "/Guides/Introduction/accounts-and-login"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Desktop X-ray Simulator",
+        "anchors": [
+          {
+            "anchor": "Technical Documentation",
+            "icon": "books",
+            "groups": [
+              {
+                "group": "Desktop X-ray Simulator guides",
+                "pages": [
+                  "/Tech/Setup-and-installation-guides/Desktop-X-ray-Simulator-Setup",
+                  "/Tech/minimum-requirements-for-running-the-desktop-xray-simulator"
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "Product and Educator Guides",
+            "groups": [
+              {
+                "group": "Desktop X-ray Simulator",
+                "pages": [
+                  "Guides/Introduction/understanding-the-programs-involved-Desktop"
+                ]
+              }
             ]
           }
         ]
