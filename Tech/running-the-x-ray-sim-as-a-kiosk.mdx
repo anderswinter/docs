@@ -34,9 +34,11 @@ Anything that fails now will still fail under the launcher. The launcher surface
 
 ## Step 2: Install the VitaSim Launcher
 
-Download the VitaSim Launcher installer from the import LauncherLatest from '/snippets/launcher-latest.mdx';
+Download the VitaSim Launcher installer from the
 
-<LauncherLatest /> and run it on the station. The installer places the launcher and its scripts under `C:\VitaSim\`.
+import LauncherLatest from '/snippets/launcher-latest.mdx'; 
+
+and run it on the station. The installer places the launcher and its scripts under `C:\VitaSim\`.
 
 <Note>
   If your institution manages software through an MDM system (Intune and similar), hand the launcher install over to your IT team. It follows the same silent-install pattern documented in [MDM deployment instructions](/Tech/mdm-deployment-instructions).
@@ -58,7 +60,7 @@ Open `C:\VitaSim\config.local.json` and set the values for this PC:
 ## About the admin PIN
 
 <Note>
-  The default admin password is "**2019"** and it will stay if you do not change it. 
+  The default admin password is "**2019"** and it will stay if you do not change it.
 </Note>
 
 The PIN protects the kiosk from being exited by students. The launcher uses it in two places:
@@ -124,7 +126,7 @@ Sign out and sign back in. The launcher should open full-screen with no desktop,
   </Card>
 
   <Card title="Roll back fully" icon="rotate-left">
-    In PowerShell on the operator account, run the command in the next section to restore Explorer, then sign out and back in.\
+    In PowerShell on the operator account, run the command in the next section to restore Explorer, then sign out and back in.\\
   </Card>
 </CardGroup>
 
@@ -157,6 +159,6 @@ If you run into issues during installation or setup:
 
 ## Book a Free Upgrade Assistance Session
 
-Would you prefer a guided walkthrough? You can book a free one-on-one online (MS Teams) session with our support team and we will run the upgrade with you: Book Upgrade Assistance. 
+Would you prefer a guided walkthrough? You can book a free one-on-one online (MS Teams) session with our support team and we will run the upgrade with you: Book Upgrade Assistance.
 
 [Book Upgrade Assistance.](https://meetings-eu1.hubspot.com/anders-winter/assisted-upgrade-for-x-ray-simulator-staff-support)
