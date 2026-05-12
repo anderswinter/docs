@@ -134,5 +134,8 @@
         "href": "https://www.vitasim.dk/x-ray",
         "type": "button"
       }
+    },
+    "styling": {
+      "eyebrows": "breadcrumbs"
     }
 }
